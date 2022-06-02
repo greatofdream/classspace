@@ -1,0 +1,8 @@
+/**footer.wxss**/
+.footer-text{
+  text-align: center;
+  color: gray;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

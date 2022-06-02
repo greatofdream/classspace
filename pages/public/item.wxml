@@ -1,0 +1,27 @@
+<template name="jiefItem1">
+    <!-- List Item begin -->
+    <view class="content-list">
+    <navigator class="item">
+        <view class="top">
+        <view class="cover-img" 
+        style="opacity: 1; background-image: url({{coverImg}});">
+        </view>
+        </view>
+        <view class="info">
+        <view class="title">{{title}}</view>
+        <view class="meta clearfix">
+            <view class="cell left">
+                <image class=".bilibili-index-play" src="/images/playlogo.png"></image>
+                <text>{{playNum}}</text>
+            </view>
+            <view class="cell left">
+                <image  class=".bilibili-index-danmu" src="/images/commentlogo.png"></image>
+                <text>{{commentNum}}</text>
+            </view>
+            
+        </view>
+        </view>
+    </navigator>
+    </view>
+    <!-- List Item end -->
+</template>

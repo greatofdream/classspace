@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/load/load",
+    "pages/login/login",
+    "pages/enroll/enroll",
+    "pages/square/square",
+    "pages/mine/mine",
+    "pages/commit/commit",
+    "pages/bottom_menu/bottom_menu",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ff0000", 
+    "selectedColor": "#ffff00",  
+    "backgroundColor": "#1697eb", 
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/square/square",
+        "text": "活动中心",
+        "iconPath": "images/tabbar/tabbar_icon_chat_default.png",
+        "selectedIconPath": "images/tabbar/tabbar_icon_chat_active.png"
+      },
+      {
+        "pagePath": "pages/commit/commit",
+        "text": "动态",
+        "iconPath": "images/tabbar/pyq.png",
+        "selectedIconPath": "images/tabbar/pyq.png"
+      },
+      {
+        "pagePath": "pages/commit/commit",
+        "text": "时光机",
+        "iconPath": "images/tabbar/addIcon.png",
+        "selectedIconPath": "images/tabbar/addIcon.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabbar/home.png",
+        "selectedIconPath": "images/tabbar/home.png"
+      }
+    ],
+    "position": "bottom", 
+    "custom": false 
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
